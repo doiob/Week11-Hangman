@@ -1,5 +1,5 @@
 
-function(word,guess,c)
+exports.letters=function(word,guess,c)
 {
 	idx =  check(word,c)
 	if ( idx != -1 )
